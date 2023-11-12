@@ -117,7 +117,8 @@ header {
 }
 .singUp input {
     padding: 8px;
-    width: 350px;
+    width: 450px;
+    min-width: 280px;
     font-weight: bolder;
     font-size: 16px;
     border-radius: 5px;
@@ -176,6 +177,8 @@ header {
     justify-content: center;
     text-align: center;
     position: relative;
+    min-width: 300px;
+    min-height: 200px;
 }
 .SlideImage , .SlideImageOne {
     width: 100%;
@@ -192,6 +195,8 @@ header {
 }
 .videoHolder {
     position: relative;
+    width: 97%;
+    height: 98%;
 }
   
 .videoOne {
@@ -199,6 +204,8 @@ header {
     height: 100%;
     object-fit: cover;
 }
+
+
 
 /*
 

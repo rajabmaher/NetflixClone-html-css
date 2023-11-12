@@ -1,0 +1,195 @@
+* ,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans","Helvetica Neue","Segoe UI","Roboto","Ubuntu","sans-serif";
+    color: #ffffff;
+}
+.App {
+    width: 100%;
+}
+header {
+    position: absolute;
+    z-index: 4;
+    background-color: transparent;
+    width: 100%;
+    padding: 24px 0;
+    top: 0;
+    display: flex;
+}
+.headerImage {
+    flex: 1; 
+}
+.headerImage> a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px ;
+}
+.headerImage > a > img {
+    max-width: 140px;
+    height: 60px;
+    position: relative;
+    left: 15%;
+}
+
+/*@media*/
+.page {
+    width: 100%;
+}
+.firstSlide {
+    width: 100%;
+    display: flex;
+}
+
+.background {
+    flex: 1;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+    height: 1200px;
+}
+
+.TopOfSlide {
+    flex: 1;
+    background-color: #00000099;
+    height: 1200px;
+    width: 100%;
+    position: relative;
+}
+.SingIn {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    background-color: #000000bf;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.SingIn > h1 {
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+.SingIn > input {
+    background-color: #333333;
+    padding: 20px 16px 0 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.SingIn > button {
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    background-color: #e50914;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.buttonInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.buttonInfo > a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+.buttonInfo > a:hover {
+    text-decoration: underline;
+}
+.buttonInfo > label {
+    color: #b3b3b3;
+}
+#checkbox {
+    margin-right: 5px;
+    position: relative;
+}
+
+.thebottom {
+    width: 100%;
+    margin-top: 35px;
+}
+.thebottom > p {
+    font-size: 16px;
+    color: #737373;
+} 
+.thebottom > p > a {
+    text-decoration: none;
+}
+.SingIn > p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+.SingIn > p > a {
+    color: #0071be;
+    text-decoration: none;
+}
+
+.theFooter {
+    background-color: #000000bf;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    bottom: 0;
+    display: flex;
+}
+.help {
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.help  > a {
+    text-decoration: none;
+    color: #737373;
+}
+.help > a:hover {
+    text-decoration:underline;
+}
+.HelpList {
+    width: 100%;
+    margin-top: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.HelpOption {
+    width: 220px;
+}
+.HelpOption > a {
+    text-decoration: none;
+    color: #737373;
+}
+.HelpOption > a:hover {
+    text-decoration:underline;
+}
+
+#Language {
+    width: 140px;
+    min-width: 80px;
+    height: 40px;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    color: #737373;
+}
+.help > p {
+    margin-top: 15px ;
+    font-size: 16px;
+    text-align: center;
+    color: #737373;
+}
